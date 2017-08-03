@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCC80">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registeration Form"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="First Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/fname"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/fnamebox"
+        android:textColor="#000000"
+        android:textColorHint="#78909C"
+        android:hint="Enter first name"
+        android:textSize="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/fname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:textColorHint="#78909C"
+        android:layout_below="@+id/phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:textSize="20dp"
+        android:hint="Enter 10 digit phone number"
+        android:id="@+id/phonebox" />
+
+    <TextView
+        android:text="Phone no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textSize="20dp"
+        android:id="@+id/phone"
+        android:layout_below="@+id/lnamebox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Date of Birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/DOB"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:inputType="date"
+        android:ems="10"
+        android:textColorHint="#78909C"
+        android:textSize="20dp"
+        android:id="@+id/dobbox"
+        android:hint="Enter DOB"
+        android:layout_alignTop="@+id/fname"
+        android:layout_toRightOf="@+id/DOB"
+        android:layout_toEndOf="@+id/DOB" />
+
+    <TextView
+        android:text="Last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/lname"
+        android:layout_below="@+id/fnamebox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="#78909C"
+        android:textSize="20dp"
+        android:hint="Enter last name"
+        android:textColor="#000000"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:id="@+id/lnamebox"
+        android:layout_below="@+id/lname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+</ScrollView> -->
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FF7777">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registeration Form"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:id="@+id/textView3"
+            android:layout_marginBottom="10dp"
+            />
+
+        <!--<TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="First Name"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/fnamebox"
+            android:textColor="#000000"
+            android:textColorHint="#78909C"
+            android:hint="Enter first name"
+            android:textSize="20dp"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/fname"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+            -->
+
+        <TextView
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="FirstName"
+
+            android:id="@+id/tv_fname_id" />
+
+
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="First Name"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+            android:id="@+id/et_fname_id">
+        </EditText>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LastName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tv_lname_id" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/et_lname_id" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tv_dob_id" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:focusable="false"
+            android:ems="10"
+            android:hint="Date will appear here after being selected"
+            android:id="@+id/et_dob_id" />
+
+        <Button android:id="@+id/b_pickDate_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick a date"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Gender"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tv_gender_id" />
+
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="Male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_male_id"
+                android:checked="true"/>
+            <RadioButton
+                android:text="Female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_female_id" />
+
+        </RadioGroup>
+
+<!--
+        <TextView
+            android:layout_width="match_parent"
+            android:text="DESIGNATION"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tv_type_id" />
+-->
+
+      <!--  <RadioGroup
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <RadioButton
+                android:text="Staff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_staff_id"
+                android:checked="true"/>
+            <RadioButton
+                android:text="Doctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_doctor_id" />
+
+        </RadioGroup>-->
+
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tv_bloodgrp_id" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Blood Group"
+            android:inputType="textShortMessage"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/et_bloodgrp_id" />-->
+
+        <TextView
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone.no"
+            android:id="@+id/tv_phone_id" />
+
+
+        <EditText
+            android:hint="Phone number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/et_phone_id" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:id="@+id/tv_email_id" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="Enter email"
+            android:id="@+id/et_email_id" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onSubmitReg"
+            android:layout_marginBottom="10dp"
+            android:text="Submit"
+            android:id="@+id/btn_submit_id"
+            />
+
+    </LinearLayout>
+</ScrollView>

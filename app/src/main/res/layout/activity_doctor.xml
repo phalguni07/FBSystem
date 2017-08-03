@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pid_2show"
+                    />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patient Information"
+                android:textColor="#333333"
+                android:textSize="25dp"
+                android:id="@+id/textView3"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter PID"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/tv_docpid_id" />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="PID"
+                android:inputType="textShortMessage"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/et_docpid_id"
+                />
+<!--
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onSubmitRetrieve"
+                android:layout_marginBottom="10dp"
+                android:text="Submit"
+                android:id="@+id/btn_retrieve_id"
+                />
+-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Observation"
+                    android:textSize="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/tv_obs_id" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Disease"
+                    android:inputType="textShortMessage"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/et_dis_id"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Course of Medication"
+                    android:textSize="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/tv_com_id" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter no of days"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/et_days_id"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tests"
+                    android:textSize="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/tv_test_id" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter test names"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/et_testname_id"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Notes"
+                    android:textSize="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/tv_note_id" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter extra notes"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/et_notedisp_id"
+                    />
+
+
+            <TextView
+                android:id="@+id/doc_report_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onSubmitDetails"
+                android:layout_marginBottom="10dp"
+                android:text="DONE"
+                android:id="@+id/btn_done_id"
+                />
+
+
+        </TableLayout>
+
+    </ScrollView>

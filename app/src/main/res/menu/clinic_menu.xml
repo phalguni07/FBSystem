@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/CallListId"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Call List"
+        />
+    <item android:id="@+id/StaffRegId"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Add Doctor"
+        />
+    <item android:id="@+id/AddDocId"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="Add Clinic"
+        />
+</menu>
